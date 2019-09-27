@@ -44,11 +44,12 @@ class ViewController: UIViewController {
     }
 
     func testCRunSwift(){
-        
+        print("--------------------\n")
+        print("C调用Swift测试")
         swiftFuncIMP = C_UserSwiftFun(a:)
         
-        print("开始运行---");
         runSwiftFun();
+        print("--------------------\n")
         
         
     }
